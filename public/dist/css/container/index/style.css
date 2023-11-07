@@ -1,0 +1,51 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 32;
+  padding: 16;
+}
+.form__title {
+  font-size: 20px;
+  font-weight: bold;
+  padding-bottom: 4;
+  margin-bottom: 8;
+  border-bottom: 1px solid #ddd;
+}
+.form__content {
+  display: grid;
+  padding-bottom: 24;
+}
+.form_field {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 8;
+  padding-top: 16;
+}
+.form__label {
+  font-size: 14px;
+  padding-bottom: 8;
+}
+.form__input {
+  border: 1px solid #ddd;
+  padding: 8;
+}
+.form__button {
+  border: 1px solid #ddd;
+  padding: 8;
+  border-radius: 20px;
+  margin-top: 16;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  gap: 40;
+}
+
+.user-list li {
+  padding-right: 15px;
+  padding-top: 5px;
+  padding-bottom: 10px;
+}
+
+/*# sourceMappingURL=style.css.map */
